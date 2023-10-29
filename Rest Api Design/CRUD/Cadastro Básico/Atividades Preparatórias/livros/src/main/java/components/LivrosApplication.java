@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"components/config", "components/model", "components/repository",  "components/controller"})
-public class SeguradoraApplication {
+@ComponentScan(basePackages = {"components/model", "components/repository",  "components/controller"})
+public class LivrosApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SeguradoraApplication.class, args);
+		SpringApplication.run(LivrosApplication.class, args);
 	}
 
 }
